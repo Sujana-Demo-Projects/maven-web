@@ -1,6 +1,6 @@
 ---
 - hosts: 172.31.15.102
-  sudo: yes
+  become: true
   tasks:
     - name: moving war file from target to tomcat webapps folder
       copy:
