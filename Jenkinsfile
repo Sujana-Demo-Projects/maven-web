@@ -22,9 +22,7 @@ pipeline{
         stage("SourceCodeQualityTestingUsingSonarQube"){
             steps{
                     sh 'mvn sonar:sonar'
-                } 
             }
-            
         }
         stage("StoringPackageInJFrog"){
             steps{
