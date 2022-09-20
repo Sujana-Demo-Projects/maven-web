@@ -4,6 +4,6 @@
   tasks:
     - name: moving war file from target to tomcat webapps folder
       copy:
-      src: target/maven-web-applications.war
-      dest: /opt/apache-tomcat-9.0.65/webapps/
+        src: target/maven-web-applications.war
+        dest: /opt/apache-tomcat-9.0.65/webapps/
 ...
