@@ -2,6 +2,7 @@
 - hosts: 172.31.15.102
   become: true
   tasks:
+    - ping:
     - name: moving war file from target to tomcat webapps folder
       copy:
         src: target/maven-web-applications.war
