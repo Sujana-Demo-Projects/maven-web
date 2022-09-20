@@ -11,7 +11,7 @@ pipeline{
     stages{
         stage("CheckOutCodeFromGitHub"){
             steps{
-                git 'https://github.com/Sujana-Demo-Projects/maven-web-application.git'
+                git 'https://github.com/Sujana-Demo-Projects/maven-web.git'
             }
         }
         stage("BuildingPackage"){
