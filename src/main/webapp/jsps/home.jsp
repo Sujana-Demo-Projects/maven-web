@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Sample Page. Hyderabad </h1>
-<h1 align="center"> Software Solutions - It is software company. Great place to work with. </h1>
+<h1 align="center">Welcome to Web Application </h1>
+<h1 align="center"> This is Automated by using Jenkins and deployed using Ansible </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
